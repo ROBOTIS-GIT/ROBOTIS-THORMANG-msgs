@@ -12,12 +12,8 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_message_files(
   FILES
-  DemoPose.msg
   JointPose.msg
   KinematicsPose.msg
-  JointGroupPose.msg
-  KinematicsGroupPose.msg
-  BimanualGroupPose.msg
 )
 
 add_service_files(
