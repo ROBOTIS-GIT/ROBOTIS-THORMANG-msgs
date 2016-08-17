@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <name>thormang3_msgs</name>
+  <version>0.1.0</version>
+  <description>ROS packages for the thormang3_msgs (meta package)</description>
+  <license>BSD</license>
+  <author email="hjsong@robotis.com">Jay Song</author>
+  <maintainer email="pyo@robotis.com">Pyo</maintainer>
+  <url type="bugtracker">https://github.com/ROBOTIS-GIT/ROBOTIS-THORMANG-msgs/issues</url>
+  <url type="repository">https://github.com/ROBOTIS-GIT/ROBOTIS-THORMANG-msgs</url>
+  <url type="website">http://wiki.ros.org/thormang3_msgs</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>thormang3_action_module_msgs</run_depend>
+  <run_depend>thormang3_feet_ft_module_msgs</run_depend>
+  <run_depend>thormang3_gripper_module_msgs</run_depend>
+  <run_depend>thormang3_manipulation_module_msgs</run_depend>
+  <run_depend>thormang3_offset_tuner_msgs</run_depend>
+  <run_depend>thormang3_walking_module_msgs</run_depend>
+  <run_depend>thormang3_wholebody_module_msgs</run_depend>
+  <export><metapackage/></export>
+</package>

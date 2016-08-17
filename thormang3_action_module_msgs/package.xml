@@ -3,19 +3,17 @@
   <name>thormang3_action_module_msgs</name>
   <version>0.1.0</version>
   <description>
-    The thormang3_action_module_msgs package
-    This package is a set of messages and services for using thormang3_action_module.       
+    This package is a set of messages and services for using thormang3_action_module.
   </description>
-  <maintainer email="hjsong@robotis.com">ROBOTIS</maintainer>
-
   <license>BSD</license>
-
-  <author email="hjsong@robotis.com">ROBOTIS</author>
-
+  <author email="hjsong@robotis.com">Jay Song</author>
+  <maintainer email="pyo@robotis.com">Pyo</maintainer>
+  <url type="bugtracker">https://github.com/ROBOTIS-GIT/ROBOTIS-THORMANG-msgs/issues</url>
+  <url type="repository">https://github.com/ROBOTIS-GIT/ROBOTIS-THORMANG-msgs</url>
+  <url type="website">http://wiki.ros.org/thormang3_msgs</url>
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>message_generation</build_depend>
   <build_depend>std_msgs</build_depend>
-  
   <run_depend>std_msgs</run_depend>
   <run_depend>message_runtime</run_depend>
 </package>
