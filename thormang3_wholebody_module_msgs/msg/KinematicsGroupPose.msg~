@@ -1,5 +1,0 @@
-string    	     name
-float64              mov_time
-geometry_msgs/Pose target_pose
-float64              via_time
-geometry_msgs/Pose via_pose

@@ -1,5 +1,0 @@
-string[]    joint_name
-float64     mov_time
-float64[]   target_value
-float64     via_time
-float64[]   via_value
