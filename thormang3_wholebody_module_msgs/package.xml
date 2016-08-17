@@ -2,7 +2,10 @@
 <package>
   <name>thormang3_wholebody_module_msgs</name>
   <version>0.0.0</version>
-  <description>The thormang3_wholebody_module_msgs package</description>
+  <description>
+    The thormang3_wholebody_module_msgs package
+    This package is a set of messages and services for using thormang3_wholebody_module.
+  </description>
 
   <maintainer email="sch@robotis.com">sch</maintainer>
   <license>BSD</license>
@@ -25,10 +28,4 @@
   <run_depend>geometry_msgs</run_depend>
   <run_depend>message_runtime</run_depend>
 
-
-  <!-- The export tag contains other, unspecified, tags -->
-  <export>
-    <!-- Other tools can request additional information be placed here -->
-
-  </export>
 </package>
