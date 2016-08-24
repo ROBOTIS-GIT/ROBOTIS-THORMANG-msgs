@@ -8,7 +8,7 @@ int32 NO_ERROR                   = 0
 int32 NOT_ENABLED_WALKING_MODULE = 2
 int32 PROBLEM_IN_POSITION_DATA   = 4
 int32 PROBLEM_IN_TIME_DATA       = 8
-# if you want to chnage step data when robotis is walking, the step_data_array size should be under 100.
+# if you want to change step data when robot is walking, the step_data_array size should be under 100.
 int32 TOO_MANY_STEP_DATA         = 128   
 # if you want to change step data, remove_existing_step_data should be set to true.
 int32 ROBOT_IS_WALKING_NOW       = 1024  
