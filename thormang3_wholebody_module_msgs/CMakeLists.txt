@@ -24,6 +24,7 @@ add_message_files(
   JointPose.msg
   KinematicsPose.msg
   WheelPose.msg
+  CirclePose.msg
 )
 
 add_service_files(
