@@ -10,6 +10,8 @@ int16 STANDING         = 3 # No foot constant
 ## Unit [meter, rad]
 float32     foot_z_swap
 float32     body_z_swap
+float32     x_zmp_shift
+float32     y_zmp_shift
 float32     torso_yaw_angle_rad
 PoseXYZRPY  left_foot_pose
 PoseXYZRPY  right_foot_pose

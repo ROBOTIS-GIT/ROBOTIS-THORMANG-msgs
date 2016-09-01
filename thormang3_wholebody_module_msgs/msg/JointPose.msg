@@ -1,3 +1,2 @@
-string    name
-float64   value
-float64   time
+float64                 mov_time
+sensor_msgs/JointState  joint_state

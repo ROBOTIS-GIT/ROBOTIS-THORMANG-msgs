@@ -23,11 +23,12 @@ add_message_files(
   FILES
   JointPose.msg
   KinematicsPose.msg
+  WheelPose.msg
+  CirclePose.msg
 )
 
 add_service_files(
   FILES
-  GetJointPose.srv
   GetKinematicsPose.srv
 )
 
