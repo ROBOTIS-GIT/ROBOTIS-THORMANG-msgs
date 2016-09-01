@@ -2,6 +2,12 @@
 Changelog for package thormang3_walking_module_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.1 (2016-09-02)
+-----------
+* changed some variable name in StepPositionData.msg
+* modified StepPositionData.msg
+* Contributors: Jay Song
+
 0.2.0 (2016-08-31)
 -----------
 * modify some typing errors

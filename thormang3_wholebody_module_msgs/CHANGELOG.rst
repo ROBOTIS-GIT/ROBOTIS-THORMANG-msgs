@@ -2,6 +2,11 @@
 Changelog for package thormang3_wholebody_module_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.1 (2016-09-02)
+-----------
+* modified wholebody msgs
+* Contributors: Jay Song
+
 0.2.0 (2016-08-31)
 -----------
 * wholebody msgs updated
