@@ -1,0 +1,27 @@
+Header header
+
+float32 r_goal_hip_y
+float32 r_goal_hip_r
+float32 r_goal_hip_p
+float32 r_goal_kn_p
+float32 r_goal_an_p
+float32 r_goal_an_r
+float32 l_goal_hip_y
+float32 l_goal_hip_r
+float32 l_goal_hip_p
+float32 l_goal_kn_p
+float32 l_goal_an_p
+float32 l_goal_an_r
+
+float32 r_present_hip_y
+float32 r_present_hip_r
+float32 r_present_hip_p
+float32 r_present_kn_p
+float32 r_present_an_p
+float32 r_present_an_r
+float32 l_present_hip_y
+float32 l_present_hip_r
+float32 l_present_hip_p
+float32 l_present_kn_p
+float32 l_present_an_p
+float32 l_present_an_r
