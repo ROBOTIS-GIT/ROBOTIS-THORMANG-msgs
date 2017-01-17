@@ -28,6 +28,8 @@ add_message_files(
   StepData.msg
   BalanceParam.msg
   RobotPose.msg
+  JointFeedBackGain.msg
+  WalkingJointStatesStamped.msg
 )
 
 add_service_files(
@@ -38,6 +40,7 @@ add_service_files(
   AddStepDataArray.srv
   StartWalking.srv
   RemoveExistingStepData.srv
+  SetJointFeedBackGain.srv
 )
 
 generate_messages(

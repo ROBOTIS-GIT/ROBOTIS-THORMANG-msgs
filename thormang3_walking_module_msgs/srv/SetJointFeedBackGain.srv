@@ -1,0 +1,8 @@
+float32           updating_duration
+JointFeedBackGain feedback_gain
+---
+int32 result
+
+int32 NO_ERROR                       = 0
+int32 NOT_ENABLED_WALKING_MODULE     = 2
+int32 PREV_REQUEST_IS_NOT_FINISHED   = 32
