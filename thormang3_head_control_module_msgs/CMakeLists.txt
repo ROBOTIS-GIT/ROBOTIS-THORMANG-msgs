@@ -2,18 +2,32 @@
 # CMake
 ################################################################################
 cmake_minimum_required(VERSION 2.8.3)
-project(thormang3_gripper_module_msgs)
+project(thormang3_head_control_module_msgs)
 
 ################################################################################
 # Packages
 ################################################################################
-find_package(catkin REQUIRED
+find_package(catkin REQUIRED COMPONENTS
+  roscpp
+  rospy
+  std_msgs
+  sensor_msgs
   message_generation
 )
 
 ################################################################################
 # Declare ROS messages, services and actions
 ################################################################################
+add_message_files(
+  FILES
+  HeadJointPose.msg
+)
+
+generate_messages(
+  DEPENDENCIES
+  std_msgs
+  sensor_msgs
+)
 
 ################################################################################
 # Declare ROS dynamic reconfigure parameters
@@ -23,7 +37,7 @@ find_package(catkin REQUIRED
 # Catkin specific configuration
 ################################################################################
 catkin_package(
-  CATKIN_DEPENDS message_runtime
+  CATKIN_DEPENDS message_runtime std_msgs sensor_msgs
 )
 
 ################################################################################

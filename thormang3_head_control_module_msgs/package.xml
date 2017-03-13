@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <package>
-  <name>thormang3_wholebody_module_msgs</name>
-  <version>0.2.1</version>
+  <name>thormang3_head_control_module_msgs</name>
+  <version>0.1.0</version>
   <description>
-    This package is a set of messages and services for using thormang3_wholebody_module.
+    This package is a set of messages and services for using thormang3_head_control_module.
   </description>
   <license>BSD</license>
-  <author email="hjsong@robotis.com">Jay Song</author>
+  <author email="kmjung@robotis.com">Kayman</author>
   <maintainer email="pyo@robotis.com">Pyo</maintainer>
   <url type="bugtracker">https://github.com/ROBOTIS-GIT/ROBOTIS-THORMANG-msgs/issues</url>
   <url type="repository">https://github.com/ROBOTIS-GIT/ROBOTIS-THORMANG-msgs</url>
@@ -16,12 +16,10 @@
   <build_depend>rospy</build_depend>
   <build_depend>std_msgs</build_depend>
   <build_depend>sensor_msgs</build_depend>
-  <build_depend>geometry_msgs</build_depend>
   <build_depend>message_generation</build_depend>
   <run_depend>roscpp</run_depend>
   <run_depend>rospy</run_depend>
   <run_depend>std_msgs</run_depend>
   <run_depend>sensor_msgs</run_depend>
-  <run_depend>geometry_msgs</run_depend>
   <run_depend>message_runtime</run_depend>
 </package>

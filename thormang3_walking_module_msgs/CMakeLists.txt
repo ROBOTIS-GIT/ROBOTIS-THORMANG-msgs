@@ -27,17 +27,22 @@ add_message_files(
   StepPositionData.msg
   StepData.msg
   BalanceParam.msg
+  DampingBalanceParam.msg
   RobotPose.msg
+  JointFeedBackGain.msg
+  WalkingJointStatesStamped.msg
 )
 
 add_service_files(
   FILES
   IsRunning.srv
   SetBalanceParam.srv
+  SetDampingBalanceParam.srv
   GetReferenceStepData.srv
   AddStepDataArray.srv
   StartWalking.srv
   RemoveExistingStepData.srv
+  SetJointFeedBackGain.srv
 )
 
 generate_messages(
