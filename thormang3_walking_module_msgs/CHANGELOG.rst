@@ -2,6 +2,13 @@
 Changelog for package thormang3_walking_module_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.2 (2017-04-24)
+-----------
+* modified SetBalanceParam.srv
+* added some msg and sev for compile
+* modified walking msgs for new balance control
+* Contributors: Zerom
+
 0.2.1 (2016-09-02)
 -----------
 * changed some variable name in StepPositionData.msg
