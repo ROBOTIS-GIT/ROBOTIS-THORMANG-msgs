@@ -2,6 +2,13 @@
 Changelog for package thormang3_manipulation_module_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.2 (2017-04-24)
+-----------
+* added jointgrouppose
+* deleted gripper msg & modified manipulation msg
+* added manipulation module msgs
+* Contributors: SCH
+
 0.2.1 (2016-09-02)
 -----------
 * modified other packages in thormang3_msgs metapackage
