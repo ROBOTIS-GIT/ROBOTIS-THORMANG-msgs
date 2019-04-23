@@ -2,6 +2,10 @@
 Changelog for package thormang3_feet_ft_module_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.1 (2016-09-02)
+-----------
+* modified other packages in thormang3_msgs metapackage
+
 0.2.0 (2016-08-31)
 -----------
 * modified other packages in thormang3_msgs metapackage
