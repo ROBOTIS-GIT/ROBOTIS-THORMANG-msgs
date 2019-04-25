@@ -1,5 +1,5 @@
-float32      updating_duration
-BalanceParam balance_param
+float32           updating_duration
+JointFeedBackGain feedback_gain
 ---
 int32 result
 
