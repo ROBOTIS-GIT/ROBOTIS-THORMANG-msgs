@@ -22,6 +22,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   JointOverload.msg
+  JointOverloadStatus.msg
 )
 
 generate_messages(
