@@ -25,6 +25,7 @@ add_message_files(
   JointOffsetPositionData.msg
   JointTorqueOnOff.msg
   JointTorqueOnOffArray.msg
+  JointsOffsetPositionData.msg
 )
 
 add_service_files(
