@@ -1,2 +1,5 @@
 thormang3_manipulation_module_msgs/KinematicsPose kinematics_pose
 geometry_msgs/Wrench wrench
+std_msgs/Float64 m
+std_msgs/Float64 d
+std_msgs/Float64 k
